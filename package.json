@@ -1,0 +1,29 @@
+{
+  "name": "nationbuilder-webhook-integrations",
+  "version": "0.1.0",
+  "description": "A web service to provide webhook endpoints for Raisely and Action Network to write data to Nationbuilder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForPurposeNZ/nationbuilder-webhook-integrations.git"
+  },
+  "author": "For Purpose",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ForPurposeNZ/nationbuilder-webhook-integrations/issues"
+  },
+  "homepage": "https://github.com/ForPurposeNZ/nationbuilder-webhook-integrations#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "qs": "^6.9.6"
+  }
+}
