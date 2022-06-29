@@ -30,7 +30,7 @@ Note - the Action Network route is currently deployed on a seperate Heroku insta
 
 ### Environment Settings 
 
-The web service uses environment variables to configure the routes and the connection to Nationbuilder API.
+The web service uses environment variables to configure the routes and the connection to Nationbuilder API. 
 
 - For local developement, copy the `.env-sample` file and create a `.env` file. 
 - For Heroku deployment, environment settings can be configured in the web panel.
