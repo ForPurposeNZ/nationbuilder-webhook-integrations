@@ -76,7 +76,7 @@ const personCreateActionNetworkRoute = async (req, res) => {
       
       // validate payload structure
 
-      const data = joi.validate(req.body, personCreateActionNetworkSchema, {      
+      const data = raislyPaymentsSchema.validate(req.body, {      
         allowUnknown: true, // return an error if body has an unrecognised property      
         abortEarly: true // return all errors a payload contains, not just the first one Joi finds
       });

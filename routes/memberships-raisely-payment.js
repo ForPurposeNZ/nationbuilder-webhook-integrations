@@ -124,7 +124,7 @@ const membershipsRaiselyPaymentRoute = async (req, res) => {
             
       // validate payload
 
-      const data = joi.validate(req.body, raislyPaymentsSchema, {      
+      const data = raislyPaymentsSchema.validate(req.body, {      
         allowUnknown: true, // allows other fields
         abortEarly: false // return all errors a payload contains, not just the first one Joi finds
       });
